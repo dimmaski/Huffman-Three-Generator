@@ -358,8 +358,6 @@ struct node * maxInBlock(struct node * root, struct node * n) {
 	}
 	
 	// at this point the sameWeight list is built
-
-	printSizeList(sameWeight);
 	
 	nodePointerList = sameWeight->next;
 	maxInBlock = nodePointerList->pointer;
