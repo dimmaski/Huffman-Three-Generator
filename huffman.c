@@ -6,7 +6,7 @@ int main() {
 	int top = 0;
 	int array[100];
 	// nº of members of the alphabet
-	int m = 13;
+	int m;
 
 	char stream[200];
 	char c;
@@ -19,6 +19,8 @@ int main() {
 	struct nodePointer * leafs;
 	struct node * aux;
 	
+	printf("Number of members in the alphabet: ");
+	scanf("%d",m);
 	
 	printf("Stream to encode:");
 	scanf("%s",stream);
