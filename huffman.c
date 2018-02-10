@@ -20,7 +20,7 @@ int main() {
 	struct node * aux;
 	
 	printf("Number of members in the alphabet: ");
-	scanf("%d",m);
+	scanf("%d",&m);
 	
 	printf("Stream to encode:");
 	scanf("%s",stream);
